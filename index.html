@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="public/logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img src="public/logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,8 +35,20 @@
             <a class="nav-link" href="#">Công ty</a>
           </li>
           <li style="margin-left: 800px;">
-            <img src="public/userProfile.png" alt="">
-            <span>Phạm Thị Thanh Bình</span>
+            <div class="user-info-dropdown">
+              <div class="dropdown">
+                <a class="dropdown-toggle" href="#" style="text-decoration: none;" role="button" data-toggle="dropdown">
+                  <img src="public/userProfile.png" alt="">
+                  <span class="user-name">Phạm Thị Thanh Bình</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                  <a class="dropdown-item" href="Profile.html"><i class="dw dw-user1"></i> Trang cá nhân</a>
+                  <a class="dropdown-item" href="ViewRecruited.html"><i class="dw dw-settings2"></i>Việc làm ứng tuyển</a>
+                  <a class="dropdown-item" href="ViewRecruitedFavorite.html"><i class="dw dw-help"></i>Việc làm đã lưu</a>
+                  <a class="dropdown-item" href="login.html"><i class="dw dw-logout"></i> Log Out</a>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
         <span class="navbar-text">
@@ -150,7 +162,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-md-2 d-flex align-items-center justify-content-center flex-column">
+                  <div class="col-md-3 d-flex align-items-center justify-content-center flex-column">
                     <div><img style="width: 100%;" src="public/deha.png" alt=""></div>
                     <div
                       style="background-color: #D9D9D9;width: 80px;height: 25px;border-radius: 5px; text-align: center;"
@@ -159,14 +171,22 @@
                     </div>
                   </div>
                   <div class="col-md-9">
-                    <h6>Nhân viên tư vấn</h6>
-                    <span>Công ty CP Deha VietNam</span><br>
-                    <div
-                      style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
-                      class="mt-2">
-                      <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                    <div>
+                        <h6>Nhân viên tư vấn</h6>
+                        <span>Công ty CP Deha VietNam</span><br>
+                        <div class="d-flex justify-content-between">
+                            <div style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
+                                class="mt-2">
+                                <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                            </div>
+
+                            <button style="background-color: #FA4D04;" class="btn btn-danger">Ứng
+                                tuyển</button>
+
+                        </div>
+
                     </div>
-                  </div>
+                </div>
                 </div>
 
               </div>
@@ -176,7 +196,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-md-2 d-flex align-items-center justify-content-center flex-column">
+                  <div class="col-md-3 d-flex align-items-center justify-content-center flex-column">
                     <div><img style="width: 100%;" src="public/deha.png" alt=""></div>
                     <div
                       style="background-color: #D9D9D9;width: 80px;height: 25px;border-radius: 5px; text-align: center;"
@@ -185,14 +205,22 @@
                     </div>
                   </div>
                   <div class="col-md-9">
-                    <h6>Nhân viên tư vấn</h6>
-                    <span>Công ty CP Deha VietNam</span><br>
-                    <div
-                      style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
-                      class="mt-2">
-                      <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                    <div>
+                        <h6>Nhân viên tư vấn</h6>
+                        <span>Công ty CP Deha VietNam</span><br>
+                        <div class="d-flex justify-content-between">
+                            <div style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
+                                class="mt-2">
+                                <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                            </div>
+
+                            <button style="background-color: #FA4D04;" class="btn btn-danger">Ứng
+                                tuyển</button>
+
+                        </div>
+
                     </div>
-                  </div>
+                </div>
                 </div>
 
               </div>
@@ -202,7 +230,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-md-2 d-flex align-items-center justify-content-center flex-column">
+                  <div class="col-md-3 d-flex align-items-center justify-content-center flex-column">
                     <div><img style="width: 100%;" src="public/deha.png" alt=""></div>
                     <div
                       style="background-color: #D9D9D9;width: 80px;height: 25px;border-radius: 5px; text-align: center;"
@@ -211,14 +239,22 @@
                     </div>
                   </div>
                   <div class="col-md-9">
-                    <h6>Nhân viên tư vấn</h6>
-                    <span>Công ty CP Deha VietNam</span><br>
-                    <div
-                      style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
-                      class="mt-2">
-                      <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                    <div>
+                        <h6>Nhân viên tư vấn</h6>
+                        <span>Công ty CP Deha VietNam</span><br>
+                        <div class="d-flex justify-content-between">
+                            <div style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
+                                class="mt-2">
+                                <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                            </div>
+
+                            <button style="background-color: #FA4D04;" class="btn btn-danger">Ứng
+                                tuyển</button>
+
+                        </div>
+
                     </div>
-                  </div>
+                </div>
                 </div>
 
               </div>

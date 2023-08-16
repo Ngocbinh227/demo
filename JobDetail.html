@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="company.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Chi tiết công việc</title>
+</head>
+<style>
+    body {
+        background-color: #425066;
+        padding: 20px;
+    }
+
+    nav {
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="public/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Việc làm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Công ty</a>
+                    </li>
+                    <li style="margin-left: 800px;">
+                        <div class="user-info-dropdown">
+                            <div class="dropdown">
+                              <a class="dropdown-toggle" href="#" style="text-decoration: none;" role="button" data-toggle="dropdown">
+                                <img src="public/userProfile.png" alt="">
+                                <span class="user-name">Phạm Thị Thanh Bình</span>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                                <a class="dropdown-item" href="Profile.html"><i class="dw dw-user1"></i> Trang cá nhân</a>
+                                <a class="dropdown-item" href="ViewRecruited.html"><i class="dw dw-settings2"></i>Việc làm ứng tuyển</a>
+                                <a class="dropdown-item" href="ViewRecruitedFavorite.html"><i class="dw dw-help"></i>Việc làm đã lưu</a>
+                                <a class="dropdown-item" href="login.html"><i class="dw dw-logout"></i> Log Out</a>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row d-flex justify-content-between mb-5 mt-5">
+        <div class="col-md-7 text-white" style="width: 600px;margin-top: 50px;margin-right: auto;margin-left: auto;">
+            <div style="width: 600px;">
+                <h3>Khám phá 100.000+ công ty nổi bật</h3>
+                <p>Tra cứu thông tin công ty và tìm kiếm việc làm tốt nhất dành cho bạn </p>
+                <div class="d-flex">
+                    <input type="text" class="form-control search-input" style="width: 400px;margin-right: 10px;"
+                        placeholder="Search Here" />
+                    <button class="btn" style="background-color: orangered;">Tìm kiếm</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <img src="public/search-company.png" alt="">
+        </div>
+    </div>
+    <div class="row bg-white" style="margin: 0px; border-radius: 5px;">
+        <div class="col-md-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
+            <h1>Chi tiết công việc</h1>
+        </div>
+        <div class="col-md-12 d-flex flex-row justify-content-center mt-5">
+            <div class="col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 d-flex align-items-center">
+                                <img style="width: 100%;" src="public/deha.png" alt="">
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <h5>Nhân viên tư vấn</h5>
+                                <span>Công ty CP Deha VietNam</span>
+                            </div>
+                            <div class="col-md-2 d-flex align-items-center">
+                                <div style="background-color: #D9D9D9;width: 80px;height: 25px;border-radius: 5px; text-align: center;"
+                                    class="mt-2">
+                                    <span style="font-size: 13px;">9-15 triệu</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex align-items-center">
+                                <div style="background-color: #D9D9D9;width: 130px;height: 30px;border-radius: 5px;text-align: center;"
+                                    class="mt-2">
+                                    <span style="font-size: 13px;">Hà Nội, Nam Định</span>
+                                </div>
+                            </div>
+                            <div class="col-md-1 d-flex align-items-center">
+                                <img src="public/Heart.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 d-flex flex-row justify-content-center mt-5 mb-5">
+            <div class="col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row border-bottom" style="padding-bottom: 10px;">
+                            <div class="col-md-8">
+                                <h4 style="color: #FA4D04;">Mô tả</h4>
+                            </div>
+                            <div class="col-md-4 text-right">
+                                <button style="background-color: #FA4D04;" class="btn btn-danger">Ứng tuyển</button>
+                            </div>
+                        </div>
+                        <div class="row mt-3 p-3">
+                            <p>How unique is a GUID?
+                                128-bits is big enough and the generation algorithm is 
+                                unique enough that if 1,000,000,000 GUIDs per second 
+                                were generated for 1 year the probability of a duplicate
+                                 would be only 50%. Or if every human on Earth generated 600,000,000 
+                                 GUIDs there would only be a 50% probability of a duplicate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end mt-4 p-4" style="background-color: #2F4858;">
+                        <div class="col-md-9">
+                            <div class="text-left">
+                                <h1 class="text-white">Bạn đang cần tuyển dụng nhân sự này</h1>
+                                <h3 class="text-white">Hãy cho chúng tôi biết và chúng tôi sẽ giúp bạn càng sớm càng tốt
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button style="margin-top: 25px;" class="btn btn-light">Quan tâm</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-white p-5" style="background-color: black;">
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="mb-4" style="color: #2F4858;">Nhà tuyển dụng</li>
+                            <li class="mb-4">Thuê ứng viên</li>
+                            <li class="mb-4">Đặt lịch</li>
+                            <li class="mb-4">Phản hồi khách hàng</li>
+                            <li class="mb-4">Cách thuê</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="mb-4" style="color: #2F4858;">Ứng viên</li>
+                            <li class="mb-4">Ứng tuyển công việc</li>
+                            <li class="mb-4">Đăng nhập</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="mb-4" style="color: #2F4858;">Công ty</li>
+                            <li class="mb-4">Thông báo</li>
+                            <li class="mb-4">Liên hệ</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li class="mb-4">
+                                <h1 class="text-white">FINDPLUS</h1>
+                            </li>
+                            <li class="mb-4">
+                                <p>Thuê các nhà tuyển dụng chuyên nghiệp
+                                    với kỹ năng giao tiếp và kỹ thuật mạnh mẽ
+                                    với mức giá cạnh tranh nhất, sẵn sàng
+                                    làm việc tự do trong quỹ thời gian của bạn.</p>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="public/facebook.png" alt="">
+                                    <img src="public/instagram.png" alt="">
+                                    <img src="public/twitter.png" alt="">
+                                    <img src="public/instagram.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>
