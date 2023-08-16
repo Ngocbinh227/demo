@@ -165,36 +165,39 @@ nav {
   margin: 10px;
 }
 /* section3 */
-.section3-box {
+.section3 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
-.text-over-image {
-  text-align: center;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  background-color: #FFF0EA;
+  margin: 40px;
+  border-radius: 10px;
 }
 
-.text-over-image p {
-  font-size: 18px;
+.section3-box {
+  width: 600px;
+  margin: 100px;
 }
 
-.image-below-text img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #ccc;
+.section3-box h1{
+  font-size: 50px;
+  color: #151F3C;
+
 }
-.text-over-image button{
-  width: 500px;
+.search-box p{
+  color: #777777;
+}
+
+.section3-box button{
+  width: 200px;
   height: 50px;
+  color: #fff;
   padding: 5px 10px; /* Khoảng cách để chứa ảnh và placeholder */
   border: 1px solid #FA4D04;
   background-color: #FA4D04;
   border-radius: 5px;
-  padding-left: 40px; /* 40px là khoảng cách để chứa ảnh */
+  padding-left: 20px; /* 40px là khoảng cách để chứa ảnh */
   background-image: url('public/arrow.png'); /* Đường dẫn đến ảnh */
   background-repeat: no-repeat;
-  background-position: 10px center; /* Vị trí ảnh */
+  background-position: 150px center; /* Vị trí ảnh */
 }
